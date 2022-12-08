@@ -1,4 +1,4 @@
-package com.bilibili.IM;
+package bilibili.IM;
 
 public abstract class Observer {
     public Session session;

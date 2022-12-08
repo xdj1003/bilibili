@@ -1,4 +1,4 @@
-package com.bilibili.database;
+package bilibili.database;
 
 /**
  * 整合 CopyAware 和 PrimaryKeyAware

@@ -1,4 +1,4 @@
-package com.bilibili.database;
+package bilibili.database;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

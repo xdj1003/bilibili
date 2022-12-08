@@ -1,4 +1,4 @@
-package com.bilibili.database;
+package bilibili.database;
 
 /**
  * 实现该接口的类具备了存入数据库后复制一份的能力，即做到数据库内数据与数据库外隔离的作用。

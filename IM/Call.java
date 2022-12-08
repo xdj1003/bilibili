@@ -1,4 +1,4 @@
-package com.wechat.IM;
+package wechat.IM;
 
 public class Call {
     private static class CallHolder {

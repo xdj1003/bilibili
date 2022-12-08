@@ -1,4 +1,4 @@
-package com.bilibili.IM;
+package bilibili.IM;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.bilibili.database;
+package bilibili.database;
 
 import java.util.ArrayList;
 import java.util.HashMap;

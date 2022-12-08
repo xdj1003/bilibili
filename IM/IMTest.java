@@ -1,4 +1,4 @@
-package com.bilibili.IM;
+package bilibili.IM;
 
 import com.bilibili.friend.Friend;
 import com.bilibili.friend.User;
