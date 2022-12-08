@@ -1,5 +1,5 @@
-package com.bilibili.subm;
-import java.util.*;  
+package bilibili.subm;
+import java.util.*;
 public class ManuscriptResources {
 	public static AbstractSubmission getsubmission(String name) {
 		if(name.equalsIgnoreCase("vediosubmission")) {
@@ -19,6 +19,9 @@ public class ManuscriptResources {
 }
 
 //finish
+
+
+
 
 
 

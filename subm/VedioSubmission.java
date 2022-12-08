@@ -1,4 +1,4 @@
-package com.bilibili.subm;
+package bilibili.subm;
 
 public interface VedioSubmission {
 	String user_name="";

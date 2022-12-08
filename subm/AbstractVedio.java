@@ -1,4 +1,4 @@
-package com.bilibili.subm;
+package bilibili.subm;
 
 public class AbstractVedio extends AbstractSubmission{
 	@Override
@@ -16,7 +16,7 @@ public class AbstractVedio extends AbstractSubmission{
 			return null;
 		}
 	}
-	
+
 	@Override
 	public ColumnSubmission getColumnSubmission(String name) {
 

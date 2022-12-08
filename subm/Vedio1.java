@@ -1,4 +1,4 @@
-package com.bilibili.subm;
+package bilibili.subm;
 
 public class Vedio1 implements VedioSubmission{
 	String user_name="";
@@ -20,7 +20,7 @@ public class Vedio1 implements VedioSubmission{
 		System.out.println("Edit Successful");
 	}
 	public String getNews() {
-		return "Vedio1 is beautiful"; 
+		return "Vedio1 is beautiful";
 	}
 }
 

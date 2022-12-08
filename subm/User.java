@@ -1,10 +1,10 @@
-package com.bilibili.subm;
+package bilibili.subm;
 // public class WechatUser extends Observer
 public class user extends Observer{
 	public user(String name,VedioSubmission v1,ColumnSubmission c1) {
 		this.name=name;
-		this.subColumn1=v1;
-		this.subVedio1=c1;
+		this.subColumn1=c1;
+		this.subVedio1=v1;
 	}
 	@Override
 	public void update() {

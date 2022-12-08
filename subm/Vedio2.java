@@ -21,7 +21,7 @@ public class Vedio2 implements VedioSubmission{
 		System.out.println("Edit Successful");
 	}
 	public String getNews() {
-		return "Vedio2 is beautiful"; 
+		return "Vedio2 is beautiful";
 	}
 }
 

@@ -1,4 +1,4 @@
-package com.bilibili.subm;
+package bilibili.subm;
 
 public class Column2 implements ColumnSubmission{
 	String user_name="";
@@ -20,7 +20,7 @@ public class Column2 implements ColumnSubmission{
 		System.out.println("Edit Successful");
 	}
 	public String getNews() {
-		return "Column2 is good"; 
+		return "Column2 is good";
 	}
 }
 

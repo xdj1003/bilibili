@@ -1,4 +1,4 @@
-package com.bilibili.subm;
+package bilibili.subm;
 
 public class AbstractColumn extends AbstractSubmission{
 	@Override
@@ -25,5 +25,7 @@ public class AbstractColumn extends AbstractSubmission{
 }
 
 
+
+//finish
 
 //finish

@@ -1,5 +1,5 @@
-package com.bilibili.subm;
-import java.util.*; 
+package bilibili.subm;
+import java.util.*;
 public class submission {
 	String user_name="";
 	String fsname="";
