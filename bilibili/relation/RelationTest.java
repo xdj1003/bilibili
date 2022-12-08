@@ -1,4 +1,4 @@
-package bilibil.relation;
+package bilibili.relation;
 import java.util.*;
 
 public class RelationTest {
