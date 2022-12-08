@@ -1,4 +1,4 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 
 public interface ColumnSubmission {
 	String user_name="";

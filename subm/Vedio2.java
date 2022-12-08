@@ -1,9 +1,6 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 
-public class Column1 implements ColumnSubmission{
-	// String fsname="";
-	// boolean ifLike=false;
-	// String fscontent="";
+public class Vedio2 implements VedioSubmission{
 	String user_name="";
 	String fsname="";
 	String SubmitTime ="";
@@ -24,9 +21,8 @@ public class Column1 implements ColumnSubmission{
 		System.out.println("Edit Successful");
 	}
 	public String getNews() {
-		return "Column1 is beautiful"; 
+		return "Vedio2 is beautiful"; 
 	}
 }
 
-
-//finish
+//dfsioadsl

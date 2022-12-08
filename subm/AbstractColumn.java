@@ -1,4 +1,4 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 
 public class AbstractColumn extends AbstractSubmission{
 	@Override
@@ -8,7 +8,7 @@ public class AbstractColumn extends AbstractSubmission{
 	}
 	@Override
 	public ColumnSubmission getColumnSubmission(String name) {
-		System.out.println("This is Column(专栏）");
+		System.out.println("This is CL");
 		if(name.equalsIgnoreCase("Column1")) {
 			System.out.println("Column1 is ok");
 			return new Column1();

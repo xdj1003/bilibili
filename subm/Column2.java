@@ -1,6 +1,6 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 
-public class Vedio1 implements VedioFriendship{
+public class Column2 implements ColumnSubmission{
 	String user_name="";
 	String fsname="";
 	String SubmitTime ="";
@@ -20,9 +20,9 @@ public class Vedio1 implements VedioFriendship{
 		System.out.println("Edit Successful");
 	}
 	public String getNews() {
-		return "Vedio1 is beautiful"; 
+		return "Column2 is good"; 
 	}
 }
 
 
-//fisdfhj
+//finish

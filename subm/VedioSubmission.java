@@ -1,9 +1,6 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 
 public interface VedioSubmission {
-	// String fsname="";
-	// boolean ifLike=false;
-	// String fscontent="";
 	String user_name="";
 	String fsname="";
 	String SubmitTime ="";

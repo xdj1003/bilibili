@@ -1,9 +1,9 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 
-public class AbstractVedio extends AbstractFriendship{
+public class AbstractVedio extends AbstractSubmission{
 	@Override
 	public VedioSubmission getVedioSubmission(String name) {
-		System.out.println("This is Vedio");
+		System.out.println("This is AVS");
 		if(name.equalsIgnoreCase("Vedio1")) {
 			System.out.println("Vedio1 is ok");
 			return new Vedio1();

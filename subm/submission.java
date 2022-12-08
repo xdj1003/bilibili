@@ -1,12 +1,11 @@
-package com.bilibili.submission;
-
-public class Vedio2 implements VedioSubmission{
+package com.bilibili.subm;
+import java.util.*; 
+public class submission {
 	String user_name="";
 	String fsname="";
 	String SubmitTime ="";
 	String fscontent="";
 	public void publish(String usrname,String name,String time) {
-		// fsname=name;
 		user_name=usrname;
 		fsname=name;
 		SubmitTime=time;
@@ -20,9 +19,4 @@ public class Vedio2 implements VedioSubmission{
 		fscontent=content;
 		System.out.println("Edit Successful");
 	}
-	public String getNews() {
-		return "Vedio2 is beautiful"; 
-	}
 }
-
-//dfsioadsl

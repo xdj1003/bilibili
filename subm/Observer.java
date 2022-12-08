@@ -1,4 +1,4 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 
 public abstract class Observer {
 	public VedioSubmission subVedio1;

@@ -1,6 +1,6 @@
-package com.bilibili.submission;
-import java.util.*; 
-public class submission {
+package com.bilibili.subm;
+
+public class Column1 implements ColumnSubmission{
 	String user_name="";
 	String fsname="";
 	String SubmitTime ="";
@@ -19,4 +19,10 @@ public class submission {
 		fscontent=content;
 		System.out.println("Edit Successful");
 	}
+	public String getNews() {
+		return "Column1 is good"; 
+	}
 }
+
+
+//finish

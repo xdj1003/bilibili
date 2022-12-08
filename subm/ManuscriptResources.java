@@ -1,4 +1,4 @@
-package com.bilibili.submission;
+package com.bilibili.subm;
 import java.util.*;  
 public class ManuscriptResources {
 	public static AbstractSubmission getsubmission(String name) {
