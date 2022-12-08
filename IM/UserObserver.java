@@ -1,6 +1,6 @@
-package com.wechat.IM;
+package com.bilibili.IM;
 
-import com.wechat.friend.User;
+import com.bilibili.friend.User;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.wechat.IM;
+package com.bilibili.IM;
 
 public abstract class Observer {
     public Session session;

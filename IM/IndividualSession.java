@@ -1,4 +1,4 @@
-package com.wechat.IM;
+package com.bilibili.IM;
 
 import java.util.ArrayList;
 import java.util.List;
