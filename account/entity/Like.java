@@ -1,8 +1,8 @@
-package com.wechat.official.account.entity;
+package bilibili.official.account.entity;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.wechat.database.DataBaseAware;
+import bilibili.database.DataBaseAware;
 
 public class Like implements DataBaseAware<Integer, Like>{
 	

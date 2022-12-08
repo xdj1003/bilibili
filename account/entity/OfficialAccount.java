@@ -1,9 +1,9 @@
-package com.wechat.official.account.entity;
+package bilibili.official.account.entity;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.wechat.database.DataBaseAware;
-import com.wechat.official.account.context.OfficialAccountContext;
+import bilibili.database.DataBaseAware;
+import bilibili.official.account.context.OfficialAccountContext;
 
 public class OfficialAccount implements DataBaseAware<Integer, OfficialAccount> {
 

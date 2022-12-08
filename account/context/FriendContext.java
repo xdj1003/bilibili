@@ -1,20 +1,20 @@
-package com.wechat.official.account.context;
+package bilibili.official.account.context;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import com.wechat.ApplicationContext;
-import com.wechat.database.DataBaseAware;
-import com.wechat.database.IndexedDB;
-import com.wechat.friend.Friend;
-import com.wechat.official.account.entity.Article;
-import com.wechat.official.account.entity.Comment;
-import com.wechat.official.account.entity.Like;
-import com.wechat.official.account.util.CommandEnum;
-import com.wechat.util.Logger;
-import com.wechat.util.LoggerFactory;
+import bilibili.ApplicationContext;
+import bilibili.database.DataBaseAware;
+import bilibili.database.IndexedDB;
+import bilibili.friend.Friend;
+import bilibili.official.account.entity.Article;
+import bilibili.official.account.entity.Comment;
+import bilibili.official.account.entity.Like;
+import bilibili.official.account.util.CommandEnum;
+import bilibili.util.Logger;
+import bilibili.util.LoggerFactory;
 
 /**
  * 用户操作上下文。理解为 MVC 应用中的 Service 层。

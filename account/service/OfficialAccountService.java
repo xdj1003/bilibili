@@ -1,17 +1,17 @@
-package com.wechat.official.account.service;
+package bilibili.official.account.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.wechat.ApplicationContext;
-import com.wechat.database.IndexedDB;
-import com.wechat.friend.Friend;
-import com.wechat.official.account.context.FriendContext;
-import com.wechat.official.account.context.OfficialAccountContext;
-import com.wechat.official.account.entity.Article;
-import com.wechat.official.account.entity.Comment;
-import com.wechat.official.account.entity.Like;
-import com.wechat.official.account.entity.OfficialAccount;
+import bilibili.ApplicationContext;
+import bilibili.database.IndexedDB;
+import bilibili.friend.Friend;
+import bilibili.official.account.context.FriendContext;
+import bilibili.official.account.context.OfficialAccountContext;
+import bilibili.official.account.entity.Article;
+import bilibili.official.account.entity.Comment;
+import bilibili.official.account.entity.Like;
+import bilibili.official.account.entity.OfficialAccount;
 
 /**
  * 一些调用接口的方法，避免繁琐的数据库交互。单例。

@@ -1,15 +1,15 @@
-package com.wechat.official.account;
+package bilibili.official.account;
 
-import com.wechat.friend.Friend;
-import com.wechat.ApplicationContext;
-import com.wechat.database.IndexedDB;
-import com.wechat.official.account.context.FriendContext;
-import com.wechat.official.account.context.OfficialAccountContext;
-import com.wechat.official.account.entity.Article;
-import com.wechat.official.account.entity.OfficialAccount;
-import com.wechat.official.account.service.OfficialAccountService;
-import com.wechat.util.Logger;
-import com.wechat.util.LoggerFactory;
+import bilibili.friend.Friend;
+import bilibili.ApplicationContext;
+import bilibili.database.IndexedDB;
+import bilibili.official.account.context.FriendContext;
+import bilibili.official.account.context.OfficialAccountContext;
+import bilibili.official.account.entity.Article;
+import bilibili.official.account.entity.OfficialAccount;
+import bilibili.official.account.service.OfficialAccountService;
+import bilibili.util.Logger;
+import bilibili.util.LoggerFactory;
 
 /**
  * 方法调用 tutorial

@@ -1,17 +1,17 @@
-package com.wechat.official.account.context;
+package bilibili.official.account.context;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wechat.ApplicationContext;
-import com.wechat.database.DataBaseAware;
-import com.wechat.database.IndexedDB;
-import com.wechat.official.account.entity.Article;
-import com.wechat.official.account.entity.Comment;
-import com.wechat.official.account.entity.Like;
-import com.wechat.official.account.entity.OfficialAccount;
-import com.wechat.official.account.service.OfficialAccountService;
-import com.wechat.official.account.util.CommandEnum;
+import bilibili.ApplicationContext;
+import bilibili.database.DataBaseAware;
+import bilibili.database.IndexedDB;
+import bilibilit.official.account.entity.Article;
+import bilibili.official.account.entity.Comment;
+import bilibili.official.account.entity.Like;
+import bilibili.official.account.entity.OfficialAccount;
+import bilibili.official.account.service.OfficialAccountService;
+import bilibili.official.account.util.CommandEnum;
 
 public class OfficialAccountContext implements DataBaseAware<Integer, OfficialAccountContext> {
 
