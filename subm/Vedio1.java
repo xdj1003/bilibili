@@ -1,6 +1,6 @@
 package com.bilibili.subm;
 
-public class Vedio1 implements VedioFriendship{
+public class Vedio1 implements VedioSubmission{
 	String user_name="";
 	String fsname="";
 	String SubmitTime ="";
